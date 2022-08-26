@@ -1,0 +1,45 @@
+.cardContainer{
+    height: 450px;
+    width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.imageContainer>img{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.cardContainer h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cardContainer p{
+    padding: 8px;
+}
+
+.cardContainer button{
+    width: 120px;
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardContainer button:hover{
+    color: blue;
+    background-color: rgb(89, 171, 171);
+}
+
+.cardContainer .flex{
+    display: flex;
+    width: 60%;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
