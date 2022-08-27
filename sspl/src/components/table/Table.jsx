@@ -12,7 +12,7 @@ export const Table = () => {
       const res = await axios.get(`https://api.publicapis.org/entries`);
       const data = res.data;
       setItems(data.entries);
-      console.log(data);
+      //console.log(data);
       setIsLoading(false);
     } catch (error) {
       console.log("error", error);
