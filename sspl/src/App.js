@@ -6,6 +6,7 @@ import { Home } from './components/home/Home';
 import { useContext } from 'react';
 import { ThemeContext } from './components/context/themeContext';
 import { SearchPAge } from './components/searchPage/SearchPAge';
+import { Cart } from './components/cart/Cart';
 
 function App() {
   const {Theme}=useContext(ThemeContext);
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/search' element={<SearchPAge/>}/>
+        <Route path='/cart' element={<Cart/>}/>
       </Routes>
     </div>
   );
